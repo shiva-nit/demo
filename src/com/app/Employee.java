@@ -27,5 +27,9 @@ public class Employee {
 	public void setEmpSal(Double empSal) {
 		this.empSal = empSal;
 	}
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empName=" + empName + ", empSal=" + empSal + "]";
+	}
 
 }
